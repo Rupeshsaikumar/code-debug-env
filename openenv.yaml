@@ -1,0 +1,3 @@
+name: CodeDebugEnv
+description: Sandboxed code debugging RL environment
+entrypoint: env.environment:CodeDebugEnv

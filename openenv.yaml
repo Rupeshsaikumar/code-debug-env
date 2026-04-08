@@ -1,3 +1,7 @@
-name: CodeDebugEnv
-description: Sandboxed code debugging RL environment
-entrypoint: env.environment:CodeDebugEnv
+title: Code Debug Env
+emoji: 🤖
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_file: app.py
+pinned: false

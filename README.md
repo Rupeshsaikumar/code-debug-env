@@ -1,5 +1,5 @@
 ---
-title: Your-Space-Title
+title: CodeDebugEnv++
 emoji: 🚀
 colorFrom: blue
 colorTo: green
@@ -50,7 +50,7 @@ It simulates a real-world workflow where AI agents analyze buggy code, understan
         │  (Error / Result)    │
         └──────────────────────┘
 
-## 🏗️ System Architecture
+## Architecture
 
 - Environment → Handles RL logic
 - Tasks → Defines debugging problems
@@ -177,7 +177,7 @@ python interactive_debug.py
 
 for API-Baseline
 
-   it runs sometimes & sometimes it occurs API failed due to Network and Server issues.
+  Note: API baseline may occasionally fail due to network or API limits.
 ...  
   GO TO THE git Bash
 export HF_TOKEN="sk-proj-xxxxxxxxxxxx"

@@ -166,6 +166,8 @@ python -m baseline.run_baseline
 python interactive_debug.py
 
 for API-Baseline
+
+   it runs sometimes & sometimes it occurs API failed due to Network and Server issues.
 ...  
   GO TO THE git Bash
 export HF_TOKEN="sk-proj-xxxxxxxxxxxx"

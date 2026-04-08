@@ -167,8 +167,11 @@ python interactive_debug.py
 
 for API-Baseline
 ...  
-
-$env:HF_TOKEN="your_real_api_key_here"
+  GO TO THE git Bash
+export HF_TOKEN="sk-proj-xxxxxxxxxxxx"
+python -m baseline.run_api_baseline
+  FOR Powershell
+$env:HF_TOKEN="sk-proj-xxxxxxxx"
 python -m baseline.run_api_baseline
 
 ```

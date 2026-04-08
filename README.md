@@ -1,3 +1,13 @@
+---
+title: Your-Space-Title
+emoji: 🚀
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: 4.30.0
+app_file: app.py
+pinned: false
+---
 # 🚀 CodeDebugEnv++: A Sandboxed Reinforcement Learning Environment for Intelligent Code Debugging
 
 > 🧠 Training AI agents to debug real-world code through safe, interactive environments, Dynamically Works.

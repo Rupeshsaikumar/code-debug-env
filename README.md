@@ -164,9 +164,14 @@ pip install pydantic
 python baseline/run_baseline.py
 python -m baseline.run_baseline
 python interactive_debug.py
+
+for API-Baseline
+...  
+
+$env:HF_TOKEN="your_real_api_key_here"
+python -m baseline.run_api_baseline
+
 ```
-
-
 
 ### 🐳 Docker Run
 
@@ -209,6 +214,14 @@ This environment fully adheres to OpenEnv standards:
 * Deterministic grading system
 * Multi-task evaluation pipeline
 
+## ✅ OpenEnv Validation
+
+This environment follows OpenEnv interface:
+- step(action)
+- reset()
+- state()
+
+Validated manually with expected behavior.
 
 ## 🌍 Real-World Applications
 
